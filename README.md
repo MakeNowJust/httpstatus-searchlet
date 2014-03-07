@@ -88,7 +88,7 @@ Forbidden
 
 ###Display all status and messages
 
-``
+```
 ? httpstatus
 100 Continue
 101 Switching Protocols
