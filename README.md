@@ -101,4 +101,4 @@ this scripts licensed under the Apache-2.0
 
 ##Author
 
-Tsuyusato Kitsune (@make_now_just) <makenowjust@myopera.com>
+Tsuyusato Kitsune (@make_now_just) <make.just.on@gmail.com>
