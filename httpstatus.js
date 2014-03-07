@@ -63,7 +63,7 @@
   };
   
   var
-  word = $input_pattern$.trim(), list;
+  word = $input_pattern$.trim(), list, partList;
   
   if (word) {
     if (statusCode[word]) {
@@ -81,7 +81,13 @@
     list = Object.keys(statusCode).sort().map(show);
   }
   
-  alert(list.join('\n'));
+  while ((partList = list.splice(0, 30)).length) {
+    if (list.length) {
+      if (confirm(partList.join('\n') + '\n\nI\’ve had it to see httpstatus!')) break;
+    } else {
+      alert(partList.join('\n'));
+    }
+  }
   
   function show(code) {
     return code + ' ' + statusCode[code];
