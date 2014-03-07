@@ -1,0 +1,31 @@
+{
+  "name": "httpstatus-searchlet",
+  "description": "tweet searchlet",
+  "private": true,
+  "version": "0.0.1",
+  "author": {
+    "name": "Tsuyusato Kitsune (@make_now_just)",
+    "email": "makenowjust@myopera.com"
+  },
+  "homepage": "https://github.com/MakeNowJust/httpstatus-searchlet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakeNowJust/httpstatus-searchlet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MakeNowJust/httpstatus-searchlet/issue"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "main": "Not Found",
+  "devDependencies": {
+    "async":     "latest",
+    "lodash":    "latest",
+    "uglify-js": "latest",
+    "optimist":  "latest"
+  }
+}
