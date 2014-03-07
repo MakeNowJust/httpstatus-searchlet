@@ -81,7 +81,7 @@
     list = Object.keys(statusCode).sort().map(show);
   }
   
-  while ((partList = list.splice(0, 30)).length) {
+  while ((partList = list.splice(0, $limit$)).length) {
     if (list.length) {
       if (confirm(partList.join('\n') + '\n\nI\’ve had it to see httpstatus!')) break;
     } else {

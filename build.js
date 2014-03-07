@@ -18,11 +18,15 @@ var
 optimist = require('optimist')
   .usage   ('Usage:\n  > node build.js [options]')
   .default ('i', '"%s"')
+  .string  ('i')
   .alias   ('i', 'input-pattern')
   .describe('i', 'string to replace $input_pattern$')
   .default ('o', 'httpstatus.min.js')
   .alias   ('o', 'output')
-  .describe('o', 'output filename'),
+  .describe('o', 'output filename')
+  .default ('l', 20)
+  .alias   ('l', 'limit')
+  .describe('l', 'number of displayable httpstatus'),
 argv = optimist.argv;
 
 if (argv.help) {
@@ -53,6 +57,7 @@ async.waterfall([
   
   function replaceHttpstatusJs(compressedSrc, next) {
     compressedSrc = compressedSrc.replace('$input_pattern$', argv['input-pattern']);
+    compressedSrc = compressedSrc.replace('$limit$', argv.limit);
     next(null, compressedSrc);
   },
   
