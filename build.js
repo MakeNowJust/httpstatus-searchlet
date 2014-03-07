@@ -9,7 +9,7 @@ uglify = require('uglify-js');
 //constants
 
 var
-VERSION       = '0.0.1',
+VERSION       = '0.0.2',
 HTTPSTATUS_JS = 'httpstatus.js';
 
 //processing command line arguments

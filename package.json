@@ -2,7 +2,7 @@
   "name": "httpstatus-searchlet",
   "description": "tweet searchlet",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Tsuyusato Kitsune (@make_now_just)",
     "email": "makenowjust@myopera.com"
