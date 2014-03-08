@@ -38,6 +38,7 @@
     206: 'Partial Content',
     207: 'Multi-Status',                    //RFC 2518 (WebDAV)
     208: 'Already Reported',                //RFC 5842
+    226: 'IM Used',                         //RFC 3229
     300: 'Multiple Choices',
     301: 'Moved Permanently',
     302: 'Found',
@@ -73,6 +74,7 @@
     429: 'Too Many Requests',
     431: 'Request Header Fields Too Large',
     449: 'Retry with',                      //unofficial Microsoft
+    451: 'Unavailable For Legal Reasons',   //proposal
     500: 'Internal Server Error',
     501: 'Not Implemented',
     502: 'Bad Gateway',
