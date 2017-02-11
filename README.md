@@ -1,5 +1,7 @@
 #httpstatus-searchlet
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MakeNowJust/httpstatus-searchlet.svg)](https://greenkeeper.io/)
+
 httpstatus-searchlet - Display HTTP status code information on your browser
 (inspire https://metacpan.org/pod/distribution/App-httpstatus/httpstatus)
 
